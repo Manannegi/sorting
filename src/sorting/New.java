@@ -2,10 +2,10 @@ package sorting;
 
 public class New {  
     static void bubbleSort(int[] arr) {  
-        int n = arr.length;  
+        int a = arr.length;  
         int temp = 0;  
-        for(int i=0; i < n; i++){  
-        	for(int j=1; j < (n-i); j++){  
+        for(int i=0; i < a; i++){  
+        	for(int j=1; j < (a-i); j++){  
                 if(arr[j-1] > arr[j]){  
                    temp = arr[j-1];  
                    arr[j-1] = arr[j];  
@@ -16,7 +16,7 @@ public class New {
   
     }  
     public static void main(String[] args) {  
-                int arr[] ={3,60,35,2,45,320,5};  
+                int arr[] ={5,33,2,48,100,3,555};  
                  
                 System.out.println();  
                 for(int i=0; i < arr.length; i++){  
